@@ -9,6 +9,7 @@ script.js: Implements animation effects using GSAP for various elements on the l
 
 ## Features
 This script file enhances the functionality and visual appeal of the Gsap Landing Page project. Below are the key features and animations implemented:
+
 ->Adds and removes the "overflow" class to the HTML and body elements to control scrolling behavior.
 ->Utilizes GSAP for smooth animations and transitions.
 ->Animates the loading of the main card element with rotation and scaling effects.
