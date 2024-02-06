@@ -22,12 +22,13 @@ This script file enhances the functionality and visual appeal of the Gsap Landin
 ->Animates the scaling and rotation of the anime card for different banner sections based on scroll triggers.                                                            
 ->Implements image source changes based on scroll triggers.                                                                                                              
 
-## Usage
-To use this landing page:
-Clone the repository to your local machine.
-Open the index.html file in a web browser to view the landing page.
-Dependencies
-GSAP (GreenSock Animation Platform): Used for animation effects. You can find more information about GSAP here.
+## Usage                                                                                                                                                                 
+To use this landing page:                                                                                                                                                
+Clone the repository to your local machine.                                                                                                                              
+Open the index.html file in a web browser to view the landing page.     
 
-# Credits
-Anime Images: Images used in the landing page are sourced from yudiz.com.
+## Dependencies                                                                                                                                                          
+GSAP (GreenSock Animation Platform): Used for animation effects. You can find more information about [GSAP](https://cdnjs.com/libraries/gsap) here.
+
+# Credits                                                                                                                                                                
+Anime Images: Images used in the landing page are sourced from [yudiz.com](https://www.yudiz.com/).
