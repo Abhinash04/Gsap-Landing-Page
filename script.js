@@ -473,4 +473,24 @@ $(document).ready(function () {
       scrub: 1
     }
   });
+
+  // Scroll handler to add class to navigation when scrolling
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 50) {
+      $('#navbar').addClass('scrolled');
+    } else {
+      $('#navbar').removeClass('scrolled');
+    }
+  });
+
+  // Smooth scrolling for navigation links
+  $('#navbar a').click(function(e) {
+    e.preventDefault();
+    var target = $($(this).attr('href'));
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+    }
+  });
 });
